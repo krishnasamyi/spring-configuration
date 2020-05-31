@@ -1,0 +1,31 @@
+# server.port:8084
+# Simple config
+# greetings.name:Samy
+
+# List of values
+# greetings.names:Samy, Pon Karthika, Ramesh, Venkat
+
+# Map of values
+# greetings.map:{Samy:'son',Karthika:'child', Ramesh:'brother1', Venkat:'brother2'}
+
+greetings:
+  map: 
+    Samy: 'son'
+    Karthika: 'child'
+    Ramesh: 'brother1'
+    Venkat: 'brother2'
+
+server.port: 8084
+
+greetings:
+  name: Samy
+  names: Samy, Pon Karthika, Ramesh, Venkatesh
+       
+# test ConfigurationProperties
+com:
+  kpk:
+    server:
+       name: www.kpk.com
+       port: 8080
+       username: test
+       password: test
