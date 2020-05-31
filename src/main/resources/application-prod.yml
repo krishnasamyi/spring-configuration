@@ -1,0 +1,25 @@
+# server.port:8084
+# Simple config
+# greetings.name:Samy
+
+# List of values
+# greetings.names:Samy, Pon Karthika, Ramesh, Venkat
+
+# Map of values
+# greetings.map:{Samy:'son',Karthika:'child', Ramesh:'brother1', Venkat:'brother2'}
+
+greetings:
+  name: Prod Samy
+  names: Prod Samy, Prod Pon Karthika, Prod Ramesh, Prod Venkatesh
+  #map: "{ProdSamy:'son',ProdKarthika:'child', ProdRamesh:'brother1', ProdVenkat:'brother2'}"
+  
+server.port: 8086
+
+# test ConfigurationProperties
+com:
+  kpk:
+    server:
+       name: www.sik.com
+       port: 8083
+       username: prod
+       password: prod

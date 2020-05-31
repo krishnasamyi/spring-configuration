@@ -1,0 +1,25 @@
+# server.port:8084
+# Simple config
+# greetings.name:Samy
+
+# List of values
+# greetings.names:Samy, Pon Karthika, Ramesh, Venkat
+
+# Map of values
+# greetings.map:{Samy:'son',Karthika:'child', Ramesh:'brother1', Venkat:'brother2'}
+
+greetings:
+  name: Dev Samy
+  names: Dev Samy, Dev Pon Karthika, Dev Ramesh, Dev Venkatesh
+  #map: "{DevSamy:'son',DevKarthika:'child', DevRamesh:'brother1', DevVenkat:'brother2'}"
+  
+server.port: 8085
+
+# test ConfigurationProperties
+com:
+  kpk:
+    server:
+       name: www.pon.com
+       port: 8082
+       username: test12
+       password: test12

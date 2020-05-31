@@ -25,3 +25,5 @@ com:
        password: test
 
 management.endpoints.web.exposure.include: "*"
+
+spring.profiles.active: dev
