@@ -9,18 +9,12 @@
 # greetings.map:{Samy:'son',Karthika:'child', Ramesh:'brother1', Venkat:'brother2'}
 
 greetings:
-  map: 
-    Samy: 'son'
-    Karthika: 'child'
-    Ramesh: 'brother1'
-    Venkat: 'brother2'
-
-server.port: 8084
-
-greetings:
   name: Samy
   names: Samy, Pon Karthika, Ramesh, Venkatesh
-       
+  map: "{Samy:'son',Karthika:'child', Ramesh:'brother1', Venkat:'brother2'}"
+  
+server.port: 8084
+
 # test ConfigurationProperties
 com:
   kpk:
@@ -29,3 +23,5 @@ com:
        port: 8080
        username: test
        password: test
+
+management.endpoints.web.exposure.include: "*"
